@@ -1,0 +1,68 @@
+name: allride_utilities
+description: AllRide utilities package for UI Components, Helper Functions & Api Services.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+ 
+  device_info_plus: ^9.1.0
+  easy_localization: ^3.0.3
+
+  dio: ^5.3.3
+  eva_icons_flutter: ^3.1.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.8
+  get: ^4.6.6
+  http: ^1.2.0
+  intl: ^0.18.1
+  lottie: ^2.7.0
+  package_info_plus: ^4.2.0
+  shared_preferences: ^2.2.2
+  country_picker: ^2.0.22
+  url_launcher: ^6.2.2
+  dotted_line: ^3.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # This package is for lints warnings and errors and coding best practices
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/map/
+    - assets/animations/
+
+  fonts:
+    - family: EuclidCircular
+      fonts:
+        - asset: assets/fonts/EuclidCircularABold.ttf
+          weight: 700
+        - asset: assets/fonts/EuclidCircularABoldItalic.ttf
+          weight: 700
+        - asset: assets/fonts/EuclidCircularAItalic.ttf
+          weight: 500
+        - asset: assets/fonts/EuclidCircularALightItalic.ttf
+          weight: 400
+        - asset: assets/fonts/EuclidCircularAMedium.ttf
+          weight: 500
+        - asset: assets/fonts/EuclidCircularAMediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/EuclidCircularARegular.ttf
+          weight: 500
+        - asset: assets/fonts/EuclidCircularASemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/EuclidCircularASemiBoldItalic.ttf
+          weight: 600
+
